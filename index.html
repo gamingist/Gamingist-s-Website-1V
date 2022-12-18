@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamingist's website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="CODM.jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        
+    $(function() {
+        $(".toggle").on("click", function(){
+
+            if($(".item").hasClass("active")){
+                $(".item").removeClass("active");
+            }
+            else{
+                $(".item").addClass("active");
+            }
+        })
+    });
+    </script>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="index.html">Gamingist.dev</a></li>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="index.html">About</a></li>
+            <li class="item"><a href="roblox.html">Roblox</a></li>
+            <li class="item"><a href="#">Discord</a></li>
+            <li class="item button"><a href="login.html">Log in</a></li>
+            <li class="item button secondary"><a href="#">Sign up</a></li>
+            <li class="toggle"><span class="bars"></span></a></li>
+        </ul>
+    </nav>
+    <div class="mainContent">
+        <br><br><!--BR stands for makeing a new line-->
+            <h2 class="aboutSection">About me</span></h2> <br>
+            <div class="about">
+            <P class="aboutSection">Hi I am Gamingist a roblox developer and a Website developer.</P> <br>
+            <p class="aboutSection">I am Indian if you are wondering which country I am from.</p> <br>
+            <p class="aboutSection">I made several roblox games for people and I did get paid in robux</p> <br>
+            <p class="aboutSection">Being a programmer is so cool you can make a website how ever you want it to look</p> <br>
+            <p class="aboutSection">And its FREE!</p></div> <br><br><br>
+        <div class="whyProgram">
+            <h2 class="contactSection">Contact me!</h2> <br>
+            <p class="programSection">Contact me on discord there is a button for that</p> <br>
+            <p class="programSection">ONLY! contact me on discord if help like how did you make this!</p> <br>
+            <p class="programSection">No spam in my dms I may block you then</p> <br>
+        </div>
+        <div class="">
+        </div>
+    </div>
+</body>
+</html>

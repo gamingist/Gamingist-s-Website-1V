@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="mario.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        
+    $(function() {
+        $(".toggle").on("click", function(){
+
+            if($(".item").hasClass("active")){
+                $(".item").removeClass("active");
+            }
+            else{
+                $(".item").addClass("active");
+            }
+        })
+    });    
+    </script>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="index.html">Gamingist.dev</a></li>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="index.html">About</a></li>
+            <li class="item"><a href="roblox.html">Roblox</a></li>
+            <li class="item"><a href="#">Discord</a></li>
+            <li class="item button"><a href="login.html">Log in</a></li>
+            <li class="item button secondary"><a href="#">Sign up</a></li>
+            <li class="toggle"><span class="bars"></span></a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="content" id="contentDev">
+        <H1>Login is in development not finished yet!</H1>
+    </div>
+</body>
+</html>
